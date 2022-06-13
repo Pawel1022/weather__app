@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<div class="weather">
+					<h1 class="weather__heading">Weather app</h1>
+					<div class="weather__head">
+						<div class="weather__box">
+							<input
+								type="text"
+								placeholder="city name !!"
+								class="weather__input"
+							/>
+							<button class="weather__btn">Search</button>
+						</div>
+						<p class="weather__warning"></p>
+						<h2 class="weather__city-name"></h2>
+						<div class="weather__icon-box">
+							<img src="./img/unknown.png" alt="" class="weather__icon" />
+						</div>
+					</div>
+					<div class="weather__body">
+						<div class="weather__heading">
+							<p class="weather__heading-item">Weather</p>
+							<p class="weather__heading-item">Temperature</p>
+							<p class="weather__heading-item">Humidity</p>
+						</div>
+
+						<div class="weather__info-box">
+							<p class="weather__info weather__info-weather"></p>
+							<p class="weather__info weather__info-temperature"></p>
+							<p class="weather__info weather__info-humidity"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
