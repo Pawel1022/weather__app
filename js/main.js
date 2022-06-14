@@ -25,7 +25,7 @@ const getWeather = () => {
         temperature.textContent = Math.floor(res.data.main.temp) + '°C'
         humidity.textContent = Math.floor(res.data.main.humidity) + '%'
 
-        console.log(res);
+        
         if (status.id >= 200 && status.id <= 233) {
             photo.setAttribute('src', './img/thunderstorm.png');
         } else if (status.id >= 300 && status.id <= 321) {
