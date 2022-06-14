@@ -37,7 +37,7 @@ body {
 }
 
 .weather {
-  padding: 0.5em;
+  padding: 0.25em;
   margin: 0.5em;
   background-color: rgba(2, 2, 5, 0.507);
   border: 1px solid #ddd0d0;
