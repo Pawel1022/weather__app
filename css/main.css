@@ -37,7 +37,7 @@ body {
 }
 
 .weather {
-  padding: 1em;
+  padding: 0.5em;
   margin: 0.5em;
   background-color: rgba(2, 2, 5, 0.507);
   border: 1px solid #ddd0d0;
@@ -134,7 +134,7 @@ body {
   padding-top: 0.5em;
   font-size: 1.5rem;
   margin: 0.25em;
-  width: 100px;
+  width: 90px;
 }
 
 .weather__info-box {
@@ -152,6 +152,6 @@ body {
 .weather__info {
   font-size: 1.5rem;
   margin: 0.25em;
-  width: 100px;
+  width: 90px;
 }
 /*# sourceMappingURL=main.css.map */
