@@ -25,7 +25,7 @@ const getWeather = () => {
         temperature.textContent = Math.floor(res.data.main.temp) + '°C'
         humidity.textContent = Math.floor(res.data.main.humidity) + '%'
 
-
+        console.log(res);
         if (status.id >= 200 && status.id <= 233) {
             photo.setAttribute('src', './img/thunderstorm.png');
         } else if (status.id >= 300 && status.id <= 321) {
@@ -38,9 +38,9 @@ const getWeather = () => {
             photo.setAttribute('src', './img/ice.png');
         } else if (status.id >= 701 && status.id <= 781) {
             photo.setAttribute('src', './img/fog.png');
-        } else if (status.id == 800) {
+        } else if (status.id >= 800 && status.id <= 802) {
             photo.setAttribute('src', './img/sun.png');
-        } else if (status.id >= 801 && status.id <= 804) {
+        } else if (status.id >= 803 && status.id <= 804) {
             photo.setAttribute('src', './img/cloud.png');
         } else {
             photo.setAttribute('src', './img/unknown.png');
